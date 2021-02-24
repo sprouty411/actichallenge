@@ -34,7 +34,7 @@ function HomePage() {
         <div class="modal-container">
           <div class="inner-modal">
             <div class="modal-content">
-              <iframe class="embeded-video" ref={modalRef} width="560" height="315" src="https://www.youtube.com/embed/neao27bSRW0"
+              <iframe title="Call of Duty Zombies" class="embeded-video" ref={modalRef} width="560" height="315" src="https://www.youtube.com/embed/neao27bSRW0"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; gyroscope; picture-in-picture"
                 allowfullscreen=""
