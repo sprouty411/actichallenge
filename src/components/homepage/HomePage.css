@@ -1,0 +1,101 @@
+/* image css */
+.mainbody-content {
+  width: 100vw;
+  height: 100vh;
+}
+
+.modal-container {
+  display: block;
+}
+.masthead-image {
+  background-image: url("../../images//masthead_01.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+/* learn more button css */
+.learn-more-cta {
+  position: absolute;
+  text-align: center;
+  font-size: 22px;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 55px;
+  background-image: linear-gradient(
+    0deg,
+    rgba(237, 237, 230, 255),
+    rgba(182, 182, 180, 255)
+  );
+  border-color: white;
+  outline: none;
+  font-weight: bold;
+}
+.learn-more-cta:hover {
+  cursor: pointer;
+}
+.learn-more-cta:active {
+  border-style: outset;
+}
+
+/* modal css */
+
+.modal-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.8);
+}
+.inner-modal {
+    width: 100vw;
+    max-width: 900px;
+}
+.modal-content {
+    position: relative;
+    padding-top: 56.25%;
+    height: 0;
+    width: 100%;
+}
+.embeded-video {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.modalExitButton{
+    position: absolute;
+    top: -50px;
+    right: 0;
+    color: white;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* media queries */
+@media only screen and (max-width: 785px) {
+  .masthead-image {
+    background-image: url("../../images/masthead_mobile_01.jpg");
+    background-position: initial;
+    background-position-x: center;
+  }
+  .mainbody-content-copy {
+    width: 80%;
+  }
+  .learn-more-cta {
+    top: 90%;
+  }
+}
