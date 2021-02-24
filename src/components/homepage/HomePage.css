@@ -21,13 +21,15 @@
 
 /* learn more button css */
 .learn-more-cta {
+  color: rgba(61,64,70,255);
+  font-family: Arial, Helvetica, sans-serif;
   position: absolute;
   text-align: center;
-  font-size: 22px;
+  font-size: 16px;
   top: 65%;
   left: 50%;
   transform: translate(-50%, -50%);
-  padding: 10px 55px;
+  padding: 15px 55px;
   background-image: linear-gradient(
     0deg,
     rgba(237, 237, 230, 255),
@@ -36,53 +38,54 @@
   border-color: white;
   outline: none;
   font-weight: bold;
+  box-shadow: 0 0 16px 8px rgb(0 0 0 / 20%);
 }
 .learn-more-cta:hover {
   cursor: pointer;
 }
 .learn-more-cta:active {
-  border-style: outset;
+  background-color: rgb(180, 180, 180);
 }
 
 /* modal css */
 
 .modal-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba(0,0,0,0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
 }
 .inner-modal {
-    width: 100vw;
-    max-width: 900px;
+  width: 100vw;
+  max-width: 900px;
 }
 .modal-content {
-    position: relative;
-    padding-top: 56.25%;
-    height: 0;
-    width: 100%;
+  position: relative;
+  padding-top: 56.25%;
+  height: 0;
+  width: 100%;
 }
 .embeded-video {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
-.modalExitButton{
-    position: absolute;
-    top: -50px;
-    right: 0;
-    color: white;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    cursor: pointer;
+.modalExitButton {
+  position: absolute;
+  top: -50px;
+  right: 0;
+  color: white;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  cursor: pointer;
 }
 
 /* media queries */

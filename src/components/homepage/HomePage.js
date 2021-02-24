@@ -28,7 +28,7 @@ function HomePage() {
       <div className="masthead-image"></div>
       <div className="mainbody-content">
         <MainCopy />
-        <button className="learn-more-cta" disabled={modalDisplayFlag} onClick={toggleModal}>Learn More</button>
+        <button className="learn-more-cta" disabled={modalDisplayFlag} onClick={toggleModal}>LEARN MORE</button>
       </div>
       {modalDisplayFlag &&
         <div class="modal-container">
